@@ -24,5 +24,3 @@ $updater->initialize(); // initialize the updater
 function hms_connect_run() {
     echo '<h1>test</h1>';
 }
-
-hms_connect_run();

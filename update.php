@@ -1,6 +1,6 @@
 <?php
 
-class Smashing_Updater {
+class HMSConnect_Updater {
 
 	private $file;
 

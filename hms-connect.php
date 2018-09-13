@@ -14,7 +14,7 @@ Domain Path: /languages
 
 <?php
 if( ! class_exists( 'Smashing_Updater' ) ){
-	include_once( plugin_dir_path( __FILE__ ) . 'updater.php' );
+	include_once( plugin_dir_path( __FILE__ ) . 'update.php' );
 }
 $updater = new Smashing_Updater( __FILE__ );
 $updater->set_username( 'michealengland' );

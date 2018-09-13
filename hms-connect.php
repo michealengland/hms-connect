@@ -3,7 +3,7 @@
 Plugin Name: HMS Connect
 Plugin URI: https://manage.thinkholmes.com/hms-connect
 Description: Easily deploy add ons that enhance functionality. 
-Version: 0.0.4
+Version: 1.0.1
 Author: Micheal England
 Author URI: http://michealengland.com
 Text Domain: hms-connect

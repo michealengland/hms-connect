@@ -9,16 +9,14 @@ Author URI: http://michealengland.com
 Text Domain: hms-connect
 Domain Path: /languages
 */
-?>
 
+include_once( plugin_dir_path( __FILE__ ) . 'updater.php' );
 
-<?php
-if( ! class_exists( 'Smashing_Updater' ) ){
-	include_once( plugin_dir_path( __FILE__ ) . 'update.php' );
-}
-$updater = new Smashing_Updater( __FILE__ );
-$updater->set_username( 'michealengland' );
-$updater->set_repository( 'hms-connect' );
-// $updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
-
+$updater = new HMSConnect_Updater( __FILE__ );
+$updater->set_username( 'rayman813' );
+$updater->set_repository( 'smashing-plugin' );
+/* 
+	$updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
+*/
 $updater->initialize();
+
